@@ -5,7 +5,7 @@ using System.Collections.ObjectModel;
 
 namespace Ucu.Poo.Defense
 {
-    public class Offer
+    public class Offer : IOfferItem
     {
         public DateTime EndDate { get; set; }
 
